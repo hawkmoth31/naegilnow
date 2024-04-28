@@ -72,7 +72,7 @@ ul {
     width: 190px;
     min-width: 190px;
     height: 80px;
-    background: #5dc2ca;
+    background: #86A4D1;
     margin: 0 20px 0 0;
     text-align: center;
     display: flex;
@@ -85,7 +85,7 @@ ul {
     width: 190px;
     min-width: 190px;
     height: 80px;
-    background: #395d73;
+    background: #554164;
     margin: 0;
     text-align: center;
     display: flex;
@@ -138,30 +138,30 @@ ul {
 /*linkhover*/
 .cont_3_link1:hover {
     background: #fff;
-    border: 2px solid #5dc2ca;
+    border: 2px solid #86A4D1;
     transition: 0.3s;
 }
 
 .cont_3_link1:hover a {
-    color: #5dc2ca;
+    color: #86A4D1;
 }
 
 .cont_3_link1:hover img {
-    filter: invert(29%) sepia(89%) saturate(235%) hue-rotate(158deg) brightness(93%) contrast(90%);
+    filter:  invert(55%) sepia(94%) saturate(160%) hue-rotate(177deg) brightness(99%) contrast(85%);
 }
 
 .cont_3_link2:hover {
     background: #fff;
-    border: 2px solid #395d73;
+    border: 2px solid #554164;
     transition: 0.3s;
 }
 
 .cont_3_link2:hover a {
-    color: #395d73;
+    color: #554164;
 }
 
 .cont_3_link2:hover img {
-    filter: invert(72%) sepia(99%) saturate(244%) hue-rotate(135deg) brightness(83%) contrast(88%);
+    filter: invert(26%) sepia(18%) saturate(974%) hue-rotate(231deg) brightness(97%) contrast(91%);
 }
 
 
@@ -351,8 +351,7 @@ ul {
 }
 
 .menutitle a:hover {
-    color: #5dc2ca;
-    transition: 0.3s;
+    color: #554164;
 }
 
 .menutitle a:hover img {
@@ -404,7 +403,7 @@ ul {
 }
 
 .cont_1_tit h1 span {
-    color: #395d73;
+    color: #554164;
     font-weight: 400;
 }
 
@@ -412,8 +411,8 @@ ul {
     display: block;
     font-family: "pretendard", -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
     line-height: 1;
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .cont_1_txt {
@@ -570,7 +569,7 @@ ul {
     margin: 0;
     width: 60%;
     height: 7px;
-    background-image: linear-gradient(to right, #439ca3, #4c83a4 48%, #d9dace 101%);
+    background-image: linear-gradient(to right, #86A4D1, #CAC6DD 48%, #F5E1E1 101%);
 }
 
 /*cont4 이미지*/
@@ -611,7 +610,7 @@ ul {
     width: 52%;
     height: 30vw;
     min-height: 400px;
-    background: linear-gradient(to bottom, #3f9aa1, #fff);
+    background: linear-gradient(to bottom, #86A4D1, #fff);
     display: flex;
     align-items: center;
     float: right;
@@ -646,7 +645,7 @@ ul {
     width: 52%;
     height: 30vw;
     min-height: 400px;
-    background: linear-gradient(to bottom, #457ea0, #fff);
+    background: linear-gradient(to bottom, #CAC6DD, #fff);
     ;
     display: flex;
     align-items: center;
@@ -689,7 +688,7 @@ ul {
     width: 84%;
     height: 20vw;
     min-height: 100px;
-    background: linear-gradient(to left, #d8d9cc, #fff);
+    background: linear-gradient(to left, #F5E1E1, #fff);
     display: flex;
     align-items: center;
     margin: 0 0 0 auto;
@@ -734,7 +733,7 @@ ul {
 
 /*cont5*/
 .cont_5_cont {
-    background: #143a51;
+    background: #86A4D1;
     width: 100%;
     padding: 100px 0;
     color: #fff;
@@ -812,7 +811,7 @@ ul {
     height: 58px;
     background: #999;
     margin-right: 40px;
-    border: 2px solid #5dc2ca;
+    border: 2px solid #554164;
     background-color: #fff;
     text-align: center;
     box-sizing: border-box;
@@ -824,7 +823,7 @@ ul {
 
 .cont_5_next a {
     text-decoration: none;
-    color: #143a51;
+    color: #554164;
     font-size: 22px;
     font-weight: 600;
     position: relative;
@@ -837,12 +836,17 @@ ul {
 }
 
 .cont_5_next:hover {
-    background-color: #5dc2ca;
+    background-color: #554164;
+    transition: 0.4s;
+}
+
+.cont_5_next:hover img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(106%);
     transition: 0.4s;
 }
 
 .cont_5_next:hover a {
-    color: #fff;
+    color: #EDEDED;
     transition: 0.4s;
 }
 
@@ -885,11 +889,11 @@ ul {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #F5F7F8;
+    background-color: #F2EEED;
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    color: #395D73;
+    color: #554164;
 }
 
 .footer span {
